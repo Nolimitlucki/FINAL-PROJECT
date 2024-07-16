@@ -5,3 +5,25 @@
     color: white;
   }
   
+
+  .myInput {
+    width: 60%;
+    width: 100%;
+  padding: 12px 20px;
+  margin: -4px 0;
+  box-sizing: border-box;
+  border: 4px solid rgb(157, 0, 255);
+  border-radius: 4px;
+  }
+  .submit{
+    width: 20%;
+    margin: 26px;
+    padding: 6px 20px;
+    border: 4px solid rgb(157, 0, 255);
+  }
+
+
+
+
+
+

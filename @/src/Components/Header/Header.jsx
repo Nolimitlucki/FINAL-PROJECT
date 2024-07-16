@@ -12,7 +12,7 @@ export default function Header(props) {
           <a href="#recommendation">Recommendation</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
         </li>
       </ul>
     </div>
