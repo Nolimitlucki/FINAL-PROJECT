@@ -1,18 +1,19 @@
 import React from "react";
-import "./Main.css";
+import "./Home.css";
 
-export default function Header(props) {
+export default function Home() {
   return (
-    <div className="main">
-      <label>
+    <div className="">
+      <h1>Home</h1>
+      {/* <label>
         <h2>Copy Paste Your Favourite Set Here!</h2>
         <br></br>
         <input className="myInput" />
         <br></br>
-        <button className="submit">
+        <button onClick className="submit">
           <h2>Submit</h2>
         </button>
-      </label>
+      </label> */}
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import React from "react";
-import "./Header.css";
 
-export default function Navbar() {
+function Navbar() {
   return (
     <div className="header">
       <ul>
@@ -18,3 +17,5 @@ export default function Navbar() {
     </div>
   );
 }
+
+export default Navbar;
