@@ -1,19 +1,16 @@
-import React from "react";
 import "./Home.css";
+import { useNavigate } from "react-router-dom";
 
-export default function Home() {
+const Home = () => {
+  const navigate = useNavigate();
+
   return (
-    <div className="">
+    <div>
       <h1>Home</h1>
-      {/* <label>
-        <h2>Copy Paste Your Favourite Set Here!</h2>
-        <br></br>
-        <input className="myInput" />
-        <br></br>
-        <button onClick className="submit">
-          <h2>Submit</h2>
-        </button>
-      </label> */}
+      <button onClick={() => navigate("/about")}>Go to About</button>
+      <button onClick={() => navigate("/contact")}>Go to Contact</button>
     </div>
   );
-}
+};
+
+export default Home;
