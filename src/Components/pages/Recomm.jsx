@@ -1,14 +1,19 @@
-// import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Gallerycomponent from "./Gallerycomponent";
 function Recomm() {
   const navigate = useNavigate();
 
   return (
-    <div>
-      <h1>Recomm</h1>
-      <button onClick={() => navigate("/")}>Back to Home</button>
-      {/* or  navigate(-1) to jump back one step, depending where you came from*/}
+    <div
+      style={{
+        backgroundColor: "black",
+        color: "white",
+      }}
+    >
+      <h1>Recommendation</h1>
+      <h2>Feel free to listen to our handpicked Recommendations</h2>
+
+      <Gallerycomponent />
     </div>
   );
 }

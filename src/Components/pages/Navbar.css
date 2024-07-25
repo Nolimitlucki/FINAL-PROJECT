@@ -1,4 +1,4 @@
-.header {
+ /* .Navbar {
     position: absolute;
     top: 0;
     left: 0;
@@ -26,4 +26,11 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  } */
+  .div {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 10px 20px;
+
   }
