@@ -32,9 +32,10 @@ const Home = () => {
       style={{
         backgroundColor: "black",
         color: "white",
+        backgroundsize: "cover",
       }}
     >
-      <img src="../Pictures/Daxjlive.jpg" width="800" height="400"></img>
+      <img src="../Pictures/Daxjlive.jpg" width="680" height="370"></img>
       <h1>Copy Paste your favourite Set in here and let us do the rest</h1>
       <form onSubmit={handleSave}>
         <label>Set Titel:</label>
@@ -45,6 +46,7 @@ const Home = () => {
           placeholder="Carl Cox at Burning Man"
           name="myInput1"
         />
+        <br></br>
         <label>Set URL:</label>
         <input
           style={{
@@ -64,7 +66,7 @@ const Home = () => {
         <br></br>
         <input type="submit" value="Save" />
       </form>
-
+      <br></br>
       <div>
         <h1>All Sets</h1>
         {sets?.map((set) => (
@@ -74,6 +76,7 @@ const Home = () => {
             <h3>{set.url}</h3>
           </div>
         ))}
+        <br></br>
       </div>
     </div>
   );

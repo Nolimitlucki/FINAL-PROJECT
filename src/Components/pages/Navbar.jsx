@@ -23,6 +23,7 @@ function Navbar() {
         flexdirection: "column",
 
         paddingtop: "10px",
+        backgroundsize: "cover",
       }}
     >
       <h1>Trackfinder</h1>
@@ -38,7 +39,7 @@ function Navbar() {
             listStyleType: "none",
 
             display: "inline",
-            fontSize: "18px",
+            fontSize: "26px",
             padding: "30px",
             color: "white",
           }}
@@ -51,19 +52,19 @@ function Navbar() {
             listStyleType: "none",
 
             display: "inline",
-            fontSize: "18px",
+            fontSize: "26px",
             padding: "30px",
           }}
         >
-          <Link to="/add">Add</Link>
+          <Link to="/about">About</Link>
         </li>
         <li
           style={{
             listStyleType: "none",
 
             display: "inline",
-            fontSize: "17px",
-            padding: "10px",
+            fontSize: "26px",
+            padding: "30px",
           }}
         >
           <Link to="/recomm">Recommendation</Link>
